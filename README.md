@@ -1,2 +1,2 @@
-# TUTO---H-berger-serveur-MC
+# TUTO-Héberger-serveur-MC
 Tutoriel en Français pour héberger un serveur minecraft
