@@ -10,8 +10,8 @@
 
 - Télécharger la version du serveur
 
-	1 - Paper (Recommandé) : https://papermc.io/downloads/all
-	2 - Spigot : https://getbukkit.org/download/spigot
+	- Paper (Recommandé) : https://papermc.io/downloads/all
+	- Spigot : https://getbukkit.org/download/spigot
 
 ---
 - Placer le .jar téléchargé dans le dossier créé précédement
@@ -24,7 +24,7 @@
 
 	Nous allons créer un fichier de démarrage, cela permet de choisir la quantité de RAM à allouer au serveur, et d'autres quelques paramètres.
 
-	1 - Ouvrez le bloc note
+	Ouvrez le bloc note
   
 	![image bloc note](https://i.postimg.cc/Vk0yg4fm/blocnote.png)
 
@@ -32,11 +32,11 @@
 	`java -Xmx[Quantité de ram à allouer en Mo]M -jar [nom du jar].jar`
 	
 	Paramètres utilisables (Ceux que je connais):
-	`-Xmx` Définit la quantité de RAM maximale qui est allouée au serveur
-	`-Xms` Définit la quantité de RAM minimum qu'on alloue au serveur
-	 `-Dfile.encoding=UTF-8` Pour des anciennes versions de minecraft, peut régler des problèmes d'accents
-	`-jar` Définit le nom du jar à executer
-	`nogui` Enlève l'interface graphique par défaut
+	- `-Xmx` Définit la quantité de RAM maximale qui est allouée au serveur
+	- `-Xms` Définit la quantité de RAM minimum qu'on alloue au serveur
+	- `-Dfile.encoding=UTF-8` Pour des anciennes versions de minecraft, peut régler des problèmes d'accents
+	- `-jar` Définit le nom du jar à executer
+	- `nogui` Enlève l'interface graphique par défaut
 
 	Dans mon cas, j'écrirait: `java -Xms512M -Xmx3072M  -Dfile.encoding=UTF-8 -jar paper-1.8.8-445.jar nogui`
 	![image bat écrit](https://i.postimg.cc/3rX7s3DV/bat-crit.png)
