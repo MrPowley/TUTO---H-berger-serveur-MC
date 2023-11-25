@@ -12,6 +12,7 @@
 
 	- Paper (Recommandé) : https://papermc.io/downloads/all
 	- Spigot : https://getbukkit.org/download/spigot
+   ⚠️ Pour les versions 1.16+ il faut utiliser java 17+, voir [Installer une autre version de java](https://github.com/MrPowley/TUTO-Heberger-serveur-MC/blob/main/installer-java17%2B.md)
 
 ---
 - Placer le .jar téléchargé dans le dossier créé précédement
