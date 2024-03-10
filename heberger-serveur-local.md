@@ -32,7 +32,7 @@
 
 	Pour lancer un serveur dans le cas général, on écrira:
 	`java -Xmx[Quantité de ram à allouer en Mo]M -jar [nom du jar].jar`
-	Si vous avez installé une version de java différente (pour MC 1.16+) Il faut remplacer `java` par `"C:\Program Files\Eclipse Adoptium\jre-17.0.9.9-hotspot\bin\javaw.exe"` Mais cela dépendera de la version choisie, pour la trouver il vous faudra aller dans le répertoire `C:\Program Files\Eclipse Adoptium\`
+	Si vous avez installé une version de java différente (pour MC 1.16+) Il faut remplacer `java` par `"C:\Program Files\Eclipse Adoptium\jre-17.0.9.9-hotspot\bin\java.exe"` Mais cela dépendera de la version choisie, pour la trouver il vous faudra aller dans le répertoire `C:\Program Files\Eclipse Adoptium\`
 	
 	Paramètres utilisables (Ceux que je connais):
 	- `-Xmx` Définit la quantité de RAM maximale qui est allouée au serveur
